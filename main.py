@@ -95,7 +95,7 @@ def analyze_profile(profile_info):
 
     return formatted_reports
 
-def get_public_instagram_info(username):
+def get_public_instagram_info(username): laa.monettt
     L = instaloader.Instaloader()
     try:
         profile = instaloader.Profile.from_username(L.context, username)
